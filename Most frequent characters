@@ -1,0 +1,93 @@
+Input:
+def most_frequent(name1):
+    a=(print("name1[0]:",name1[0]))
+    b=(print("name1[1]:",name1[1]))
+    c=(print("name1[2]:",name1[2]))
+    d=(print("name1[3]:",name1[3]))
+    e=(print("name1[4]:",name1[4]))
+    f=(print("name1[5]:",name1[5]))
+    g=(print("name1[6]:",name1[6]))
+    h=(print("name1[7]:",name1[7]))
+    i=(print("name1[8]:",name1[8]))
+    j=(print("name1[9]:",name1[9]))
+    k=(print("name1[10]:",name1[10]))
+    count=0
+    letter=str(input("Enter a string: "))
+    for i in range(0,11):
+        if(letter==name1[i]):
+            count=count+1
+        i=i+1
+    return("The letter %s is printed %d times", letter,count)
+            
+
+
+    
+name='mississippi'
+print("The string is ",name)
+print(most_frequent(name))
+n=int(input("How many types you want to repeat: "))
+s=str(input("Do you want to repeat the task?????........"))
+while(n):
+    if(s=='yes'):
+        print(most_frequent(name))
+    else:
+        print('quit')
+
+
+
+Output:
+The string is  mississippi
+name1[0]: m
+name1[1]: i
+name1[2]: s
+name1[3]: s
+name1[4]: i
+name1[5]: s
+name1[6]: s
+name1[7]: i
+name1[8]: p
+name1[9]: p
+name1[10]: i
+Enter a string: m
+('The letter %s is printed %d times', 'm', 1)
+How many types you want to repeat: 3
+Do you want to repeat the task?????........yes
+name1[0]: m
+name1[1]: i
+name1[2]: s
+name1[3]: s
+name1[4]: i
+name1[5]: s
+name1[6]: s
+name1[7]: i
+name1[8]: p
+name1[9]: p
+name1[10]: i
+Enter a string: i
+('The letter %s is printed %d times', 'i', 4)
+name1[0]: m
+name1[1]: i
+name1[2]: s
+name1[3]: s
+name1[4]: i
+name1[5]: s
+name1[6]: s
+name1[7]: i
+name1[8]: p
+name1[9]: p
+name1[10]: i
+Enter a string: s
+('The letter %s is printed %d times', 's', 4)
+name1[0]: m
+name1[1]: i
+name1[2]: s
+name1[3]: s
+name1[4]: i
+name1[5]: s
+name1[6]: s
+name1[7]: i
+name1[8]: p
+name1[9]: p
+name1[10]: i
+Enter a string: p
+('The letter %s is printed %d times', 'p', 2)
